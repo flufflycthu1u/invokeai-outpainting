@@ -1,2 +1,5 @@
 !switch sd-inpainting-1.5
-!fix inputs/winter.png --outcrop top 64 right 64 bottom 64 left 64 --new_prompt "snowy landscape, snow covered evergreen trees, lake, hills, cloudy, bob ross"
+!fix inputs/winter.png --outcrop top 64 right 64 bottom 64 left 64 --new_prompt ""
+
+snowy landscape, snow covered evergreen trees, lake, hills, cloudy, bob ross, neutral light
+human, portrait, selfie, picture
