@@ -5,3 +5,5 @@ outputs/
 # InvokeAI
 models
 .venv
+invoke.sh
+invokeai.init
