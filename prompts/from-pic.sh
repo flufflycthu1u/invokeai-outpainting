@@ -1,7 +1,7 @@
 
 . .venv/bin/activate
 
-source="./inputs/Solid_white.png"
+source="./inputs/$2"
 P1="!switch sd-inpainting-1.5"
 P2="--outcrop top 64 right 64 bottom 64 left 64 -z0 --new_prompt \"polar bear in a snowstorm\""
 
@@ -9,7 +9,7 @@ echo -e "${P1}\n!fix $source ${P2}" | ./.venv/bin/invoke.py --from_file -
 
 images="$source"
 
-for (( i=1; i<${1:-2}; i++))
+for (( i=1; i<${1:-2}; i++)) # Defaults to 2 iterations or argument 1
 do
 	# handle previous image
 	new_img=$(cat ./outputs/invoke_log.md | tail -n 3 | head -n 1 | cut -d '(' -f2 | cut -d ')' -f1)
