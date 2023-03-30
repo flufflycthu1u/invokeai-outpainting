@@ -8,3 +8,8 @@ This project uses stable diffusion via the Invoke AI toolkit to outpaint images 
 2. Make sure to download the stable-diffusion-1.5 and sd-inpainting-1.5 models.
 3. Download and install this repository such that this readme.md is in the same folder as invoke.sh.
 ![image](https://user-images.githubusercontent.com/2520037/228951015-a1ee2994-0c4c-4a3b-a196-9f4da8ca197d.png)
+
+## Usage
+First place an image you want to expand in the inputs directory.
+
+Next, to run this tool open a terminal in the root directory of the project and run `./prompts/from-pic.sh iterations filename`.
