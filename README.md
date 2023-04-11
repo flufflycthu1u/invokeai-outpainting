@@ -2,6 +2,7 @@
 ![winter-10-best](https://user-images.githubusercontent.com/2520037/228950826-a6350b17-ca87-4397-88ed-ebae45997f93.gif)
 
 This project uses stable diffusion via the Invoke AI toolkit to outpaint images repeatedly.
+It was developed using version 2.3.1.post2 of Invoke AI. More recent versions may work, but functionality is not guaranteed.
 
 ## Installation
 1. Download and install [Invoke AI](https://github.com/invoke-ai/InvokeAI) from their [releases page](https://github.com/invoke-ai/InvokeAI/releases).
